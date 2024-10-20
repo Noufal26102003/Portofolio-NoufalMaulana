@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="LoginForm.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Masukan"  required class="transparent-input">
+            </div>
+            <div class="input-group" style="position: flex;">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Masukan password" class="transparent-input">
+            </div>
+            <button type="submit">Login</button>
+            <div>
+
+            </div>
+        </form>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Noufal Maulana. All rights reserved.</p>
+    </footer>
+</body>
+</html>
